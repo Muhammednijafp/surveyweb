@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <div id="a1" class="survey">
+        <form>
+            <p align="center">Let us know how we can improve</p>
+            <table id="t1">
+                <tr>
+                    <td>
+                        <label for="">*Name:</label>
+
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">*Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Enter your Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">*Age</label>
+                    </td>
+          
+                    <td>
+                        <input type="number" placeholder="Enter your Age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">which option best describe your currenmt role?</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="student">student</option>
+                            <option value="employee">employee</option>
+                            <option value="part-time">part-time</option>
+                            <option value="other">other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">*how likely is that you would recommend this program to a friends?</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="recommend" id="definietly" required>
+                        <label for="">definietly</label>
+                        <br>
+                        <input type="radio" name="recommend" id="maybe" >
+                        <label for="">maybe</label>
+                        <br>
+                        <input type="radio" name="recommend" id="notsure" >
+                        <label for="">notsure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">what would you like most here</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>select an option</option>
+                            <option>projects</option>
+                            <option>staffs</option>
+                            <option>abcd</option>
+                            <option>efghi</option>
+                            <option>others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">things that should be improved in the future{check all that apply}</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" value="front-end-projects">
+                        <label for="">front-end-projects</label>
+                        <br>
+                        <input type="checkbox" value="back-end-projects">
+                        <label for="">back-end-projects</label>
+                        <br>
+                        <input type="checkbox" value="data visualization">
+                        <label for="">data visualization</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">any comment or suggessions?</label>
+                    </td>
+                    <td>
+                        <textarea row="60" col="60" placeholder="Enter your comments here..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <button type="submit" href="">submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+</html>
